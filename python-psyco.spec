@@ -8,7 +8,7 @@ Version:	1.0
 Release:	1
 License:	MIT
 Group:		Libraries/Python
-Source0:	http://prdownloads.sourceforge.net/psyco/%{module}-%{version}-src.tar.gz
+Source0:	http://dl.sourceforge.net/psyco/%{module}-%{version}-src.tar.gz
 URL:		http://psyco.sourceforge.net/
 BuildRequires:	python >= 2.2.1
 %pyrequires_eq	python-modules
@@ -16,13 +16,13 @@ Exclusivearch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-In short: run your existing Python software much faster, with no change in your
-source.
+In short: run your existing Python software much faster, with no
+change in your source.
 
-Think of Psyco as a kind of just-in-time (JIT) compiler, a little bit like
-Java's, that emit machine code on the fly instead of interpreting your Python
-program step by step. The result is that your unmodified Python programs run
-faster.
+Think of Psyco as a kind of just-in-time (JIT) compiler, a little bit
+like Java's, that emit machine code on the fly instead of interpreting
+your Python program step by step. The result is that your unmodified
+Python programs run faster.
 
 %prep
 %setup -q -n %{module}-%{version}
