@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 %define	module	psyco
 Summary:	Python extension module which can speed up the execution of Python code
 Summary(pl):	Modu³ rozszerzenia Pythona mog±cy przyspieszyæ wykonywanie kodu w Pythonie
