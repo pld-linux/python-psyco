@@ -1,7 +1,5 @@
 %include	/usr/lib/rpm/macros.python
-
-%define module psyco
-
+%define	module	psyco
 Summary:	Python extension module which can speed up the execution of Python code
 Summary(pl):	Modu³ rozszerzenia Pythona mog±cy przyspieszyæ wykonywanie kodu w Pythonie
 Name:		python-%{module}
@@ -10,7 +8,7 @@ Release:	1
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/psyco/%{module}-%{version}-src.tar.gz
-# Source0-md5:	16a7ace0d0c94acf8886a3db7055869b
+# Source0-md5:	2b12983f5a56a9fafe010b54ef514770
 URL:		http://psyco.sourceforge.net/
 BuildRequires:	python >= 2.2.3
 %pyrequires_eq	python-modules
