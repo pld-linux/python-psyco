@@ -9,6 +9,7 @@ Release:	1
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/psyco/%{module}-%{version}-src.tar.gz
+# Source0-md5:	c4da85db2edf00e03f1fb3e8cd1058b5
 URL:		http://psyco.sourceforge.net/
 BuildRequires:	python >= 2.2.1
 %pyrequires_eq	python-modules
