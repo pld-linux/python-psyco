@@ -12,7 +12,7 @@ Source0:	http://dl.sourceforge.net/psyco/%{module}-%{version}-src.tar.gz
 URL:		http://psyco.sourceforge.net/
 BuildRequires:	python >= 2.2.3
 %pyrequires_eq	python-modules
-Exclusivearch:	%{ix86}
+ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
