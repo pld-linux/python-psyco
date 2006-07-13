@@ -2,12 +2,12 @@
 Summary:	Python extension module which can speed up the execution of Python code
 Summary(pl):	Modu³ rozszerzenia Pythona mog±cy przyspieszyæ wykonywanie kodu w Pythonie
 Name:		python-%{module}
-Version:	1.5
+Version:	1.5.1
 Release:	1
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/psyco/%{module}-%{version}-src.tar.gz
-# Source0-md5:	ff79e5daf94924fc7401d336d33edebf
+# Source0-md5:	89e629d27acda765f01aa870230d1162
 URL:		http://psyco.sourceforge.net/
 BuildRequires:	python >= 2.2.3
 %pyrequires_eq	python-modules
