@@ -9,7 +9,7 @@ Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/psyco/%{module}-%{version}-src.tar.gz
 # Source0-md5:	89e629d27acda765f01aa870230d1162
 URL:		http://psyco.sourceforge.net/
-BuildRequires:	python >= 2.2.3
+BuildRequires:	python >= 1:2.2.3
 %pyrequires_eq	python-modules
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
