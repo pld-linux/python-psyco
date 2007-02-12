@@ -1,6 +1,6 @@
 %define	module	psyco
 Summary:	Python extension module which can speed up the execution of Python code
-Summary(pl):	Modu³ rozszerzenia Pythona mog±cy przyspieszyæ wykonywanie kodu w Pythonie
+Summary(pl.UTF-8):   ModuÅ‚ rozszerzenia Pythona mogÄ…cy przyspieszyÄ‡ wykonywanie kodu w Pythonie
 Name:		python-%{module}
 Version:	1.5.1
 Release:	1
@@ -23,14 +23,14 @@ like Java's, that emit machine code on the fly instead of interpreting
 your Python program step by step. The result is that your unmodified
 Python programs run faster.
 
-%description -l pl
-W skrócie: ten modu³ pozwala na o wiele szybsze dzia³anie programów w
-Pythonie bez zmian w ¼ród³ach.
+%description -l pl.UTF-8
+W skrÃ³cie: ten moduÅ‚ pozwala na o wiele szybsze dziaÅ‚anie programÃ³w w
+Pythonie bez zmian w ÅºrÃ³dÅ‚ach.
 
-Psyco jest rodzajem kompilatora JIT (just-in-time), trochê podobnego
-do tego z Javy, produkuj±cego kod maszynowy w locie zamiast
-interpretowania programu w Pythonie krok po kroku. Efekt jest taki, ¿e
-programy w Pythonie bez ¿adnych modyfikacji dzia³aj± szybciej.
+Psyco jest rodzajem kompilatora JIT (just-in-time), trochÄ™ podobnego
+do tego z Javy, produkujÄ…cego kod maszynowy w locie zamiast
+interpretowania programu w Pythonie krok po kroku. Efekt jest taki, Å¼e
+programy w Pythonie bez Å¼adnych modyfikacji dziaÅ‚ajÄ… szybciej.
 
 %prep
 %setup -q -n %{module}-%{version}
