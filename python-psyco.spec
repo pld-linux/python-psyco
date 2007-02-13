@@ -1,6 +1,6 @@
 %define	module	psyco
 Summary:	Python extension module which can speed up the execution of Python code
-Summary(pl.UTF-8):   Moduł rozszerzenia Pythona mogący przyspieszyć wykonywanie kodu w Pythonie
+Summary(pl.UTF-8):	Moduł rozszerzenia Pythona mogący przyspieszyć wykonywanie kodu w Pythonie
 Name:		python-%{module}
 Version:	1.5.1
 Release:	1
