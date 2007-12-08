@@ -3,7 +3,7 @@ Summary:	Python extension module which can speed up the execution of Python code
 Summary(pl.UTF-8):	Moduł rozszerzenia Pythona mogący przyspieszyć wykonywanie kodu w Pythonie
 Name:		python-%{module}
 Version:	1.5.2
-Release:	333
+Release:	3
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/psyco/%{module}-%{version}-src.tar.gz
