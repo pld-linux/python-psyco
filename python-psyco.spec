@@ -9,7 +9,8 @@ Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/psyco/%{module}-%{version}-src.tar.gz
 # Source0-md5:	bceb17423d06b573dc7b875d34e79417
 URL:		http://psyco.sourceforge.net/
-BuildRequires:	python >= 1:2.2.3
+BuildRequires:	python >= 1:2.5
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -49,7 +50,7 @@ python setup.py install \
 %py_ocomp $RPM_BUILD_ROOT%{py_sitedir}
 %py_comp $RPM_BUILD_ROOT%{py_sitedir}
 
-rm -f $RPM_BUILD_ROOT%{py_sitedir}/%{module}/*.py
+rm -f $RPM_BUILD_ROOT%{py_sitedir}/psyco/*.py
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -57,8 +58,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc *.txt
-%dir %{py_sitedir}/%{module}
-%{py_sitedir}/%{module}/*.pyc
-%{py_sitedir}/%{module}/*.pyo
-%{py_sitedir}/%{module}/*.so
+%dir %{py_sitedir}/psyco
+%{py_sitedir}/psyco/*.pyc
+%{py_sitedir}/psyco/*.pyo
+%attr(755,root,root) %{py_sitedir}/psyco/*.so
 %{py_sitedir}/*.egg-info
